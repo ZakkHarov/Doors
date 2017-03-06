@@ -1,0 +1,348 @@
+2016-12-22 10:39:10.273 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 10:39:10.296 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
+2016-12-22 10:39:10.297 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
+2016-12-22 10:39:10.468 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@271c83a8: startup date [Thu Dec 22 10:39:10 MSK 2016]; root of context hierarchy
+2016-12-22 10:39:11.686 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
+2016-12-22 10:39:12.064 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 10:39:12.696 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 10:39:12.901 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
+2016-12-22 10:39:12.958 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+2016-12-22 10:39:12.991 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-12-22 10:39:12.996 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 22 10:39:12 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@271c83a8
+2016-12-22 10:39:13.908 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 915 ms
+2016-12-22 10:39:13.910 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
+2016-12-22 10:39:13.911 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Thu Dec 22 10:39:13 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@271c83a8
+2016-12-22 10:39:14.907 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 996 ms
+2016-12-22 10:39:14.978 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 10:39:14.985 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
+2016-12-22 10:39:14.987 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
+2016-12-22 10:39:14.995 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
+2016-12-22 10:39:15.058 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file D:\Work\Cuba Projects\Doors\build\tomcat\work\doors-core\persistence.xml
+2016-12-22 10:39:15.070 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@28bbe2fe: startup date [Thu Dec 22 10:39:15 MSK 2016]; root of context hierarchy
+2016-12-22 10:39:17.472 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 10:39:19.484 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 10:39:19.790 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
+2016-12-22 10:39:19.964 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Initialize anonymous session
+2016-12-22 10:39:19.966 INFO  [localhost-startStop-1] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2016-12-22 10:39:20.115 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 10:39:20.201 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 86ms
+2016-12-22 10:39:20.773 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2016-12-22 10:39:20.865 INFO  [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
+2016-12-22 10:39:20.865 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Anonymous session initialized with id b40d7bf4-3464-c143-5cec-b443b2c1cc94
+2016-12-22 10:39:20.865 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+2016-12-22 10:39:20.868 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+2016-12-22 10:39:20.871 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 10:39:20 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@28bbe2fe
+2016-12-22 10:39:20.893 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2016-12-22 10:39:21.011 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 142 ms
+2016-12-22 10:39:34.442 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2016-12-22 10:39:34.447 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.web.App - Initializing application
+2016-12-22 10:39:34.553 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2016-12-22 10:39:34.553 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 10:39:34.562 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 10:39:34.735 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 171ms
+2016-12-22 10:39:35.015 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.AbstractConnection - Logged in: user=anonymous, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 10:39:37.050 INFO  [http-nio-8080-exec-9/doors-core/anonymous] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: d8bc7da5-1d96-01c8-78b2-ecd6503cf9a7 [admin]
+2016-12-22 10:39:37.062 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2016-12-22 10:39:37.062 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 10:39:37.063 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@209e39c3, timeout=1800sec, UserSession=d8bc7da5-1d96-01c8-78b2-ecd6503cf9a7 [admin]
+2016-12-22 10:39:37.162 INFO  [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+2016-12-22 10:39:37.164 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+2016-12-22 10:39:37.167 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: com/ekom/doors/views.xml
+2016-12-22 10:39:37.184 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2016-12-22 10:39:37.236 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2016-12-22 10:39:37.331 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+2016-12-22 10:39:37.350 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+2016-12-22 10:39:37.399 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.AbstractConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 10:39:54.495 INFO  [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2016-12-22 10:39:54.609 INFO  [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.sys.ViewRepositoryImpl - Initializing views
+2016-12-22 10:39:54.727 DEBUG [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 10:39:55.587 DEBUG [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 10:39:57.244 WARN  [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 10:39:57.286 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 10:39:57.341 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 10:40:03.029 INFO  [ClientCacheManager-pool-1-thread-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 11145fe6-75cb-829b-9b2a-dd75532e042e [admin]
+2016-12-22 10:44:58.272 INFO  [scheduler-3] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_WindowConfig.reset
+2016-12-22 10:44:59.446 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 10:44:59.464 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 10:45:00.979 WARN  [http-nio-8080-exec-11/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 10:45:00.988 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 10:45:01.001 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 10:49:35.791 DEBUG [http-nio-8080-exec-11/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 10:58:58.506 INFO  [scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_WindowConfig.reset
+2016-12-22 10:59:20.505 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Closing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 10:39:20 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@28bbe2fe
+2016-12-22 10:59:20.526 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@28bbe2fe: startup date [Thu Dec 22 10:39:15 MSK 2016]; root of context hierarchy
+2016-12-22 10:59:20.527 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2016-12-22 11:24:19.557 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 11:24:19.616 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
+2016-12-22 11:24:19.618 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
+2016-12-22 11:24:19.754 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@54b9b123: startup date [Thu Dec 22 11:24:19 MSK 2016]; root of context hierarchy
+2016-12-22 11:24:20.976 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
+2016-12-22 11:24:21.361 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 11:24:22.028 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 11:24:22.233 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
+2016-12-22 11:24:22.288 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+2016-12-22 11:24:22.321 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-12-22 11:24:22.326 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 22 11:24:22 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@54b9b123
+2016-12-22 11:24:23.189 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 868 ms
+2016-12-22 11:24:23.192 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
+2016-12-22 11:24:23.193 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Thu Dec 22 11:24:23 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@54b9b123
+2016-12-22 11:24:24.171 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 978 ms
+2016-12-22 11:24:24.247 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 11:24:24.256 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
+2016-12-22 11:24:24.257 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
+2016-12-22 11:24:24.264 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
+2016-12-22 11:24:24.336 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file D:\Work\Cuba Projects\Doors\build\tomcat\work\doors-core\persistence.xml
+2016-12-22 11:24:24.348 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6e79068b: startup date [Thu Dec 22 11:24:24 MSK 2016]; root of context hierarchy
+2016-12-22 11:24:26.776 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 11:24:28.882 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 11:24:28.996 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
+2016-12-22 11:24:29.181 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Initialize anonymous session
+2016-12-22 11:24:29.183 INFO  [localhost-startStop-1] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2016-12-22 11:24:29.336 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 11:24:29.422 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 86ms
+2016-12-22 11:24:29.963 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2016-12-22 11:24:30.049 INFO  [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
+2016-12-22 11:24:30.049 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Anonymous session initialized with id b40d7bf4-3464-c143-5cec-b443b2c1cc94
+2016-12-22 11:24:30.049 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+2016-12-22 11:24:30.052 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+2016-12-22 11:24:30.054 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 11:24:30 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6e79068b
+2016-12-22 11:24:30.074 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2016-12-22 11:24:30.201 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 148 ms
+2016-12-22 11:24:41.465 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2016-12-22 11:24:41.470 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.web.App - Initializing application
+2016-12-22 11:24:41.564 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2016-12-22 11:24:41.564 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 11:24:41.573 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 11:24:41.711 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 137ms
+2016-12-22 11:24:41.945 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.AbstractConnection - Logged in: user=anonymous, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 11:24:43.440 INFO  [http-nio-8080-exec-5/doors-core/anonymous] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 35aeb5f9-72b0-65d3-447f-55dee39586ca [admin]
+2016-12-22 11:24:43.451 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2016-12-22 11:24:43.451 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 11:24:43.453 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@7761444d, timeout=1800sec, UserSession=35aeb5f9-72b0-65d3-447f-55dee39586ca [admin]
+2016-12-22 11:24:43.559 INFO  [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+2016-12-22 11:24:43.562 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+2016-12-22 11:24:43.565 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: com/ekom/doors/views.xml
+2016-12-22 11:24:43.579 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2016-12-22 11:24:43.623 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2016-12-22 11:24:43.711 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+2016-12-22 11:24:43.731 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+2016-12-22 11:24:43.778 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.web.AbstractConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 11:24:47.543 INFO  [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2016-12-22 11:24:47.589 INFO  [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.sys.ViewRepositoryImpl - Initializing views
+2016-12-22 11:24:47.646 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 11:24:48.007 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 11:24:49.545 WARN  [http-nio-8080-exec-6/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 11:24:49.567 DEBUG [http-nio-8080-exec-6/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 11:24:49.595 DEBUG [http-nio-8080-exec-6/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 11:24:52.348 INFO  [ClientCacheManager-pool-1-thread-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 95b8e5f7-e739-4598-a717-495c4f995b3a [admin]
+2016-12-22 11:27:52.126 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 11:27:52.154 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=50
+2016-12-22 11:29:24.543 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 11:29:24.561 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 11:29:25.584 WARN  [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 11:29:25.592 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 11:29:25.602 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 11:34:42.099 DEBUG [http-nio-8080-exec-5/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 11:44:42.115 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 11:54:42.125 DEBUG [http-nio-8080-exec-12/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 12:04:42.134 DEBUG [http-nio-8080-exec-2/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 12:14:42.144 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 12:24:42.154 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 12:56:23.695 DEBUG [scheduler-2] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 35aeb5f9-72b0-65d3-447f-55dee39586ca [admin], since: Thu Dec 22 11:24:43 MSK 2016, lastUsed: Thu Dec 22 12:24:42 MSK 2016
+2016-12-22 12:56:31.995 DEBUG [http-nio-8080-exec-8] com.haulmont.cuba.web.App - Initializing application
+2016-12-22 12:56:31.997 DEBUG [http-nio-8080-exec-8/doors/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2016-12-22 12:56:31.997 DEBUG [http-nio-8080-exec-8/doors/anonymous] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 12:56:32.009 DEBUG [http-nio-8080-exec-8/doors/anonymous] com.haulmont.cuba.web.AbstractConnection - Logged in: user=anonymous, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 12:56:34.050 INFO  [http-nio-8080-exec-7/doors-core/anonymous] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 9b4684b9-65ce-29e7-b637-61d2c266a077 [admin]
+2016-12-22 12:56:34.053 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2016-12-22 12:56:34.054 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 12:56:34.054 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@3b56134b, timeout=1800sec, UserSession=9b4684b9-65ce-29e7-b637-61d2c266a077 [admin]
+2016-12-22 12:56:34.087 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2016-12-22 12:56:34.108 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+2016-12-22 12:56:34.116 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+2016-12-22 12:56:34.131 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.AbstractConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 12:58:02.229 DEBUG [http-nio-8080-exec-4/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 12:58:02.257 DEBUG [http-nio-8080-exec-4/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 12:58:04.079 WARN  [http-nio-8080-exec-12/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 12:58:04.092 DEBUG [http-nio-8080-exec-12/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 12:58:04.108 DEBUG [http-nio-8080-exec-12/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 13:00:05.442 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.gui.WebWindow - Validation failed: com.haulmont.cuba.gui.components.FieldGroup$FieldsValidationException: Заполните поле "Номер заказа"
+Заполните поле "Заказчик"
+Заполните поле "Категория размещения"
+Заполните поле "Высота"
+Заполните поле "Дата"
+Заполните поле "Желаемая дата изготовления"
+Заполните поле "Цена"
+Заполните поле "Количество петель"
+Заполните поле "Ширина"
+2016-12-22 13:00:11.259 DEBUG [http-nio-8080-exec-11/doors/admin] com.haulmont.cuba.web.gui.WebWindow - Validation failed: com.haulmont.cuba.gui.components.FieldGroup$FieldsValidationException: Заполните поле "Номер заказа"
+Заполните поле "Заказчик"
+Заполните поле "Категория размещения"
+Заполните поле "Высота"
+Заполните поле "Дата"
+Заполните поле "Желаемая дата изготовления"
+Заполните поле "Цена"
+Заполните поле "Количество петель"
+Заполните поле "Ширина"
+2016-12-22 13:00:14.138 DEBUG [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 13:00:14.156 DEBUG [http-nio-8080-exec-10/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 13:00:15.389 WARN  [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 13:00:15.395 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 13:00:15.404 DEBUG [http-nio-8080-exec-7/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 13:00:16.685 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.gui.WebWindow - Validation failed: com.haulmont.cuba.gui.components.FieldGroup$FieldsValidationException: Заполните поле "Номер заказа"
+Заполните поле "Заказчик"
+Заполните поле "Категория размещения"
+Заполните поле "Высота"
+Заполните поле "Дата"
+Заполните поле "Желаемая дата изготовления"
+Заполните поле "Цена"
+Заполните поле "Количество петель"
+Заполните поле "Ширина"
+2016-12-22 13:00:16.685 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.gui.WebWindow - Validation failed: com.haulmont.cuba.gui.components.RequiredValueMissingException: Заполните поле "Направление открывания"
+2016-12-22 13:06:32.572 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 13:16:32.582 DEBUG [http-nio-8080-exec-2/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 13:24:05.526 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 13:24:05.543 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 13:24:07.166 WARN  [http-nio-8080-exec-11/doors/admin] com.haulmont.cuba.gui.xml.layout.loaders.ScrollBoxLayoutLoader - 100% height of AbstractFrame id=windowActions inside vertical scrollBox replaced with -1px height
+2016-12-22 13:24:07.170 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=10000
+2016-12-22 13:24:07.178 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=10000
+2016-12-22 13:24:12.870 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Closing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 11:24:30 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6e79068b
+2016-12-22 13:24:12.890 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6e79068b: startup date [Thu Dec 22 11:24:24 MSK 2016]; root of context hierarchy
+2016-12-22 13:24:12.892 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2016-12-22 13:32:16.795 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 13:32:16.815 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
+2016-12-22 13:32:16.817 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
+2016-12-22 13:32:16.989 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@436aa4f8: startup date [Thu Dec 22 13:32:16 MSK 2016]; root of context hierarchy
+2016-12-22 13:32:18.243 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
+2016-12-22 13:32:18.620 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 13:32:19.270 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 13:32:19.461 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
+2016-12-22 13:32:19.517 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+2016-12-22 13:32:19.550 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-12-22 13:32:19.556 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 22 13:32:19 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@436aa4f8
+2016-12-22 13:32:20.431 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 880 ms
+2016-12-22 13:32:20.434 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
+2016-12-22 13:32:20.435 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Thu Dec 22 13:32:20 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@436aa4f8
+2016-12-22 13:32:21.401 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 967 ms
+2016-12-22 13:32:21.479 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 13:32:21.488 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
+2016-12-22 13:32:21.490 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
+2016-12-22 13:32:21.496 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
+2016-12-22 13:32:21.573 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file D:\Work\Cuba Projects\Doors\build\tomcat\work\doors-core\persistence.xml
+2016-12-22 13:32:21.585 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2bfb942a: startup date [Thu Dec 22 13:32:21 MSK 2016]; root of context hierarchy
+2016-12-22 13:32:24.004 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 13:32:26.066 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 13:32:26.338 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
+2016-12-22 13:32:26.519 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Initialize anonymous session
+2016-12-22 13:32:26.520 INFO  [localhost-startStop-1] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2016-12-22 13:32:26.665 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 13:32:26.754 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 89ms
+2016-12-22 13:32:27.319 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2016-12-22 13:32:27.402 INFO  [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
+2016-12-22 13:32:27.403 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Anonymous session initialized with id b40d7bf4-3464-c143-5cec-b443b2c1cc94
+2016-12-22 13:32:27.403 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+2016-12-22 13:32:27.407 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+2016-12-22 13:32:27.408 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 13:32:27 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2bfb942a
+2016-12-22 13:32:27.426 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2016-12-22 13:32:27.541 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 134 ms
+2016-12-22 13:32:53.020 DEBUG [http-nio-8080-exec-1] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2016-12-22 13:32:53.026 DEBUG [http-nio-8080-exec-1] com.haulmont.cuba.web.App - Initializing application
+2016-12-22 13:32:53.123 DEBUG [http-nio-8080-exec-1/doors/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2016-12-22 13:32:53.123 DEBUG [http-nio-8080-exec-1/doors/anonymous] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 13:32:53.131 INFO  [http-nio-8080-exec-1/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 13:32:53.303 INFO  [http-nio-8080-exec-1/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 172ms
+2016-12-22 13:32:53.528 DEBUG [http-nio-8080-exec-1/doors/anonymous] com.haulmont.cuba.web.AbstractConnection - Logged in: user=anonymous, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 13:32:55.287 INFO  [http-nio-8080-exec-3/doors-core/anonymous] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: fe41cb15-3996-1004-5a6e-111e9a8310fe [admin]
+2016-12-22 13:32:55.299 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2016-12-22 13:32:55.299 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 13:32:55.301 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@5ed12647, timeout=1800sec, UserSession=fe41cb15-3996-1004-5a6e-111e9a8310fe [admin]
+2016-12-22 13:32:55.408 INFO  [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+2016-12-22 13:32:55.410 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+2016-12-22 13:32:55.413 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: com/ekom/doors/views.xml
+2016-12-22 13:32:55.428 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2016-12-22 13:32:55.471 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2016-12-22 13:32:55.552 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+2016-12-22 13:32:55.572 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+2016-12-22 13:32:55.616 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.AbstractConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 13:33:12.061 INFO  [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2016-12-22 13:33:12.101 INFO  [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.sys.ViewRepositoryImpl - Initializing views
+2016-12-22 13:33:12.155 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 13:33:12.464 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50
+2016-12-22 13:33:19.532 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 13:33:19.567 DEBUG [http-nio-8080-exec-5/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Door, view=com.ekom.doors.entity.Door/_local, query=select e from doors$Door e, max=50
+2016-12-22 13:33:29.581 INFO  [ClientCacheManager-pool-1-thread-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: bfa3de36-59fe-27eb-dce3-16f3f574b8e3 [admin]
+2016-12-22 13:33:46.964 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 13:33:46.987 DEBUG [http-nio-8080-exec-9/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Customer, view=com.ekom.doors.entity.Customer/_local, query=select e from doors$Customer e, max=50
+2016-12-22 13:33:50.110 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=doors$Customer, id=d6ebee81-9935-8f37-91b5-7920b993228d, view=com.ekom.doors.entity.Customer/_local
+2016-12-22 13:33:50.153 DEBUG [http-nio-8080-exec-13/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/_local, query=select e from doors$Order e where e.customer.id = :ds_customerDs order by e.date, max=10000
+2016-12-22 13:34:13.799 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2016-12-22 13:34:13.807 DEBUG [http-nio-8080-exec-3/doors-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2016-12-22 13:34:26.728 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Closing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 13:32:27 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2bfb942a
+2016-12-22 13:34:26.767 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Closing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@2bfb942a: startup date [Thu Dec 22 13:32:21 MSK 2016]; root of context hierarchy
+2016-12-22 13:34:26.770 INFO  [localhost-startStop-2] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2016-12-22 13:47:00.628 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 13:47:00.649 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
+2016-12-22 13:47:00.651 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
+2016-12-22 13:47:00.826 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@29bbf73f: startup date [Thu Dec 22 13:47:00 MSK 2016]; root of context hierarchy
+2016-12-22 13:47:02.047 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
+2016-12-22 13:47:02.405 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 13:47:03.027 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 13:47:03.211 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
+2016-12-22 13:47:03.263 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.WebAppContextLoader - AppContext initialized
+2016-12-22 13:47:03.295 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+2016-12-22 13:47:03.299 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 22 13:47:03 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@29bbf73f
+2016-12-22 13:47:04.162 INFO  [localhost-startStop-1] com.haulmont.cuba.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 867 ms
+2016-12-22 13:47:04.164 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
+2016-12-22 13:47:04.166 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Thu Dec 22 13:47:04 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@29bbf73f
+2016-12-22 13:47:05.110 INFO  [localhost-startStop-1] com.haulmont.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 944 ms
+2016-12-22 13:47:05.183 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2016-12-22 13:47:05.191 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
+2016-12-22 13:47:05.193 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
+2016-12-22 13:47:05.200 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
+2016-12-22 13:47:05.272 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file D:\Work\Cuba Projects\Doors\build\tomcat\work\doors-core\persistence.xml
+2016-12-22 13:47:05.284 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@71775bd2: startup date [Thu Dec 22 13:47:05 MSK 2016]; root of context hierarchy
+2016-12-22 13:47:07.616 INFO  [localhost-startStop-1] com.haulmont.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+2016-12-22 13:47:09.729 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2016-12-22 13:47:09.846 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
+2016-12-22 13:47:10.031 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Initialize anonymous session
+2016-12-22 13:47:10.034 INFO  [localhost-startStop-1] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2016-12-22 13:47:10.184 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 13:47:10.270 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 86ms
+2016-12-22 13:47:10.822 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2016-12-22 13:47:10.907 INFO  [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
+2016-12-22 13:47:10.908 DEBUG [localhost-startStop-1] com.haulmont.cuba.security.app.LoginWorkerBean - Anonymous session initialized with id b40d7bf4-3464-c143-5cec-b443b2c1cc94
+2016-12-22 13:47:10.908 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.AppContextLoader - AppContext initialized
+2016-12-22 13:47:10.910 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+2016-12-22 13:47:10.912 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Thu Dec 22 13:47:10 MSK 2016]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@71775bd2
+2016-12-22 13:47:10.931 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2016-12-22 13:47:11.063 INFO  [localhost-startStop-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 152 ms
+2016-12-22 13:47:36.155 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2016-12-22 13:47:36.160 DEBUG [http-nio-8080-exec-6] com.haulmont.cuba.web.App - Initializing application
+2016-12-22 13:47:36.254 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2016-12-22 13:47:36.255 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 13:47:36.265 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2016-12-22 13:47:36.420 INFO  [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 154ms
+2016-12-22 13:47:36.682 DEBUG [http-nio-8080-exec-6/doors/anonymous] com.haulmont.cuba.web.AbstractConnection - Logged in: user=anonymous, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 13:47:38.741 INFO  [http-nio-8080-exec-1/doors-core/anonymous] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: 575e162f-d5d6-5a09-79ad-eab385f64a5f [admin]
+2016-12-22 13:47:38.750 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2016-12-22 13:47:38.751 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.web.App - Closing all windows
+2016-12-22 13:47:38.752 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@1d787a47, timeout=1800sec, UserSession=575e162f-d5d6-5a09-79ad-eab385f64a5f [admin]
+2016-12-22 13:47:38.844 INFO  [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Initializing views
+2016-12-22 13:47:38.845 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: cuba-views.xml
+2016-12-22 13:47:38.848 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.client.sys.ViewRepositoryClientImpl - Deploying views config: com/ekom/doors/views.xml
+2016-12-22 13:47:38.861 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2016-12-22 13:47:38.905 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2016-12-22 13:47:38.987 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading AppFolders
+2016-12-22 13:47:39.005 DEBUG [http-nio-8080-exec-1/doors-core/admin] com.haulmont.cuba.core.app.FoldersServiceBean - Loading SearchFolders
+2016-12-22 13:47:39.047 DEBUG [http-nio-8080-exec-1/doors/admin] com.haulmont.cuba.web.AbstractConnection - Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/doors) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+2016-12-22 13:57:37.303 DEBUG [http-nio-8080-exec-9/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 14:07:38.298 DEBUG [http-nio-8080-exec-8/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 14:17:39.297 DEBUG [http-nio-8080-exec-3/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 14:27:40.298 DEBUG [http-nio-8080-exec-7/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 14:37:41.298 DEBUG [http-nio-8080-exec-6/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 15:04:19.005 DEBUG [http-nio-8080-exec-2/doors/admin] com.haulmont.cuba.web.App - Ping session
+2016-12-22 15:04:58.757 INFO  [ClientCacheManager-pool-1-thread-1] com.haulmont.cuba.security.app.LoginWorkerBean - Logged in: b5383464-096c-3013-1eb7-87ad6f47cca7 [admin]
+2016-12-22 15:04:58.809 INFO  [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2016-12-22 15:04:58.847 INFO  [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.sys.ViewRepositoryImpl - Initializing views
+2016-12-22 15:04:58.912 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name
+2016-12-22 15:04:59.190 DEBUG [http-nio-8080-exec-11/doors-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=doors$Order, view=com.ekom.doors.entity.Order/orderWithCustomerAndDoor, query=select e from doors$Order e, max=50

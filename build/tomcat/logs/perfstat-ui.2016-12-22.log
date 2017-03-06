@@ -1,0 +1,504 @@
+Performance Statistics   2016-12-21 22:44:00 - 2016-12-21 22:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:38:00 - 2016-12-22 10:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                418,0         418         418         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   3,0           3           3         0,0           1
+doors$Order.browse@ordersDs                            314,0         314         314         0,0           1
+doors$Order.edit#init                                    6,0           6           6         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                  129,0         129         129         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 6,0           6           6         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     2,0           2           2         0,0           1
+doors$Order.edit.windowActions#load                      2,0           2           2         0,0           1
+doors$Order.edit@customersDs                            51,0          51          51         0,0           1
+doors$Order.edit@doorsDs                                25,0          25          25         0,0           1
+loginWindow#init                                         7,0           7           7         0,0           1
+loginWindow#inject                                       6,0           6           6         0,0           1
+loginWindow#load                                       183,0         183         183         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          6,0           6           6         0,0           1
+mainWindow#init                                         14,0          14          14         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                         62,0          62          62         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           1           1         0,0           1
+windowActions#xml                                        1,0           1           1         0,0           1
+
+Performance Statistics   2016-12-22 10:40:00 - 2016-12-22 10:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:42:00 - 2016-12-22 10:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:44:00 - 2016-12-22 10:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                 10,0          10          10         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   0,0           0           0         0,0           1
+doors$Order.browse@ordersDs                             11,0          11          11         0,0           1
+doors$Order.edit#init                                    0,0           0           0         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                  568,0         568         568         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 0,0           0           0         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      0,0           0           0         0,0           1
+doors$Order.edit@customersDs                            13,0          13          13         0,0           1
+doors$Order.edit@doorsDs                                10,0          10          10         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 10:46:00 - 2016-12-22 10:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:48:00 - 2016-12-22 10:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:50:00 - 2016-12-22 10:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:52:00 - 2016-12-22 10:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:54:00 - 2016-12-22 10:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 10:56:00 - 2016-12-22 10:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:24:00 - 2016-12-22 11:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                199,0         199         199         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   3,0           3           3         0,0           1
+doors$Order.browse@ordersDs                            181,0         181         181         0,0           1
+doors$Order.edit#init                                    3,0           3           3         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                   83,0          83          83         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 3,0           3           3         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      1,0           1           1         0,0           1
+doors$Order.edit@customersDs                            28,0          28          28         0,0           1
+doors$Order.edit@doorsDs                                15,0          15          15         0,0           1
+loginWindow#init                                         6,0           6           6         0,0           1
+loginWindow#inject                                       6,0           6           6         0,0           1
+loginWindow#load                                       151,0         151         151         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          6,0           6           6         0,0           1
+mainWindow#init                                         16,0          16          16         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                         66,0          66          66         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           1           1         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 11:26:00 - 2016-12-22 11:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Door.browse#init                                   0,0           0           0         0,0           1
+doors$Door.browse#inject                                 0,0           0           0         0,0           1
+doors$Door.browse#load                                  29,0          29          29         0,0           1
+doors$Door.browse#ready                                  0,0           0           0         0,0           1
+doors$Door.browse#uiPermissions                          0,0           0           0         0,0           1
+doors$Door.browse#xml                                    3,0           3           3         0,0           1
+doors$Door.browse@doorsDs                               10,0          10          10         0,0           1
+
+Performance Statistics   2016-12-22 11:28:00 - 2016-12-22 11:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                 15,0          15          15         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   0,0           0           0         0,0           1
+doors$Order.browse@ordersDs                             13,0          13          13         0,0           1
+doors$Order.edit#init                                    0,0           0           0         0,0           1
+doors$Order.edit#inject                                  0,5           0           1         0,5           2
+doors$Order.edit#load                                   14,0          14          14         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 0,0           0           0         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      0,0           0           0         0,0           1
+doors$Order.edit@customersDs                            11,0          11          11         0,0           1
+doors$Order.edit@doorsDs                                 8,0           8           8         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 11:30:00 - 2016-12-22 11:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:32:00 - 2016-12-22 11:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:34:00 - 2016-12-22 11:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:36:00 - 2016-12-22 11:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:38:00 - 2016-12-22 11:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:40:00 - 2016-12-22 11:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:42:00 - 2016-12-22 11:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:44:00 - 2016-12-22 11:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:46:00 - 2016-12-22 11:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:48:00 - 2016-12-22 11:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:50:00 - 2016-12-22 11:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:52:00 - 2016-12-22 11:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:54:00 - 2016-12-22 11:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:56:00 - 2016-12-22 11:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 11:58:00 - 2016-12-22 12:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:00:00 - 2016-12-22 12:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:02:00 - 2016-12-22 12:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:04:00 - 2016-12-22 12:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:06:00 - 2016-12-22 12:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:08:00 - 2016-12-22 12:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:10:00 - 2016-12-22 12:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:12:00 - 2016-12-22 12:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:14:00 - 2016-12-22 12:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:16:00 - 2016-12-22 12:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:18:00 - 2016-12-22 12:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:20:00 - 2016-12-22 12:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:22:00 - 2016-12-22 12:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:24:00 - 2016-12-22 12:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:26:00 - 2016-12-22 12:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:28:00 - 2016-12-22 12:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 12:56:00 - 2016-12-22 12:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                         1,0           1           1         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         8,0           8           8         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          0,0           0           0         0,0           1
+mainWindow#init                                          0,0           0           0         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         10,0          10          10         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 12:58:00 - 2016-12-22 13:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                 12,0          12          12         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   0,0           0           0         0,0           1
+doors$Order.browse@ordersDs                             19,0          19          19         0,0           1
+doors$Order.edit#init                                    0,0           0           0         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                   11,0          11          11         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 0,0           0           0         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      0,0           0           0         0,0           1
+doors$Order.edit@customersDs                            15,0          15          15         0,0           1
+doors$Order.edit@doorsDs                                10,0          10          10         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 13:00:00 - 2016-12-22 13:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                 11,0          11          11         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   0,0           0           0         0,0           1
+doors$Order.browse@ordersDs                             12,0          12          12         0,0           1
+doors$Order.edit#init                                    0,0           0           0         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                   10,0          10          10         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 1,0           1           1         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      0,0           0           0         0,0           1
+doors$Order.edit@customersDs                             9,0           9           9         0,0           1
+doors$Order.edit@doorsDs                                 8,0           8           8         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 13:02:00 - 2016-12-22 13:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:04:00 - 2016-12-22 13:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:06:00 - 2016-12-22 13:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:08:00 - 2016-12-22 13:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:10:00 - 2016-12-22 13:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:12:00 - 2016-12-22 13:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:14:00 - 2016-12-22 13:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:16:00 - 2016-12-22 13:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:18:00 - 2016-12-22 13:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:20:00 - 2016-12-22 13:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:22:00 - 2016-12-22 13:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:24:00 - 2016-12-22 13:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                 14,0          14          14         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   0,0           0           0         0,0           1
+doors$Order.browse@ordersDs                              9,0           9           9         0,0           1
+doors$Order.edit#init                                    0,0           0           0         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                   10,0          10          10         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 0,0           0           0         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     0,0           0           0         0,0           1
+doors$Order.edit.windowActions#load                      0,0           0           0         0,0           1
+doors$Order.edit@customersDs                             7,0           7           7         0,0           1
+doors$Order.edit@doorsDs                                 9,0           9           9         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 13:32:00 - 2016-12-22 13:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Customer.browse#init                               0,0           0           0         0,0           1
+doors$Customer.browse#inject                             0,0           0           0         0,0           1
+doors$Customer.browse#load                              19,0          19          19         0,0           1
+doors$Customer.browse#ready                              0,0           0           0         0,0           1
+doors$Customer.browse#uiPermissions                      0,0           0           0         0,0           1
+doors$Customer.browse#xml                                3,0           3           3         0,0           1
+doors$Customer.browse@customersDs                       15,0          15          15         0,0           1
+doors$Customer.edit#init                                 0,0           0           0         0,0           1
+doors$Customer.edit#inject                               0,0           0           0         0,0           2
+doors$Customer.edit#load                                38,0          38          38         0,0           1
+doors$Customer.edit#ready                                0,0           0           0         0,0           1
+doors$Customer.edit#setItem                             29,0          29          29         0,0           1
+doors$Customer.edit#uiPermissions                        0,0           0           0         0,0           1
+doors$Customer.edit#xml                                  1,0           1           1         0,0           1
+doors$Customer.edit.windowActions#load                   2,0           2           2         0,0           1
+doors$Customer.edit@ordersDs                            21,0          21          21         0,0           1
+doors$Door.browse#init                                   0,0           0           0         0,0           1
+doors$Door.browse#inject                                 0,0           0           0         0,0           1
+doors$Door.browse#load                                  24,0          24          24         0,0           1
+doors$Door.browse#ready                                  0,0           0           0         0,0           1
+doors$Door.browse#uiPermissions                          0,0           0           0         0,0           1
+doors$Door.browse#xml                                    2,0           2           2         0,0           1
+doors$Door.browse@doorsDs                               33,0          33          33         0,0           1
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                201,0         201         201         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   3,0           3           3         0,0           1
+doors$Order.browse@ordersDs                            162,0         162         162         0,0           1
+loginWindow#init                                         7,0           7           7         0,0           1
+loginWindow#inject                                       6,0           6           6         0,0           1
+loginWindow#load                                       141,0         141         141         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          6,0           6           6         0,0           1
+mainWindow#init                                         15,0          15          15         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                         69,0          69          69         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           1           1         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-22 13:46:00 - 2016-12-22 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                         7,0           7           7         0,0           1
+loginWindow#inject                                       7,0           7           7         0,0           1
+loginWindow#load                                       169,0         169         169         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          7,0           7           7         0,0           1
+mainWindow#init                                         12,0          12          12         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                         57,0          57          57         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           1           1         0,0           1
+
+Performance Statistics   2016-12-22 13:48:00 - 2016-12-22 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:50:00 - 2016-12-22 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:52:00 - 2016-12-22 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:54:00 - 2016-12-22 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:56:00 - 2016-12-22 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 13:58:00 - 2016-12-22 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:00:00 - 2016-12-22 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:02:00 - 2016-12-22 14:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:04:00 - 2016-12-22 14:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:06:00 - 2016-12-22 14:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:08:00 - 2016-12-22 14:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:10:00 - 2016-12-22 14:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:12:00 - 2016-12-22 14:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:14:00 - 2016-12-22 14:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:16:00 - 2016-12-22 14:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:18:00 - 2016-12-22 14:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:20:00 - 2016-12-22 14:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:22:00 - 2016-12-22 14:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:24:00 - 2016-12-22 14:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:26:00 - 2016-12-22 14:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:28:00 - 2016-12-22 14:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:30:00 - 2016-12-22 14:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:32:00 - 2016-12-22 14:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:34:00 - 2016-12-22 14:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:36:00 - 2016-12-22 14:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:38:00 - 2016-12-22 14:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:40:00 - 2016-12-22 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 14:42:00 - 2016-12-22 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-22 15:04:00 - 2016-12-22 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                1,0           1           1         0,0           1
+doors$Order.browse#load                                237,0         237         237         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   4,0           4           4         0,0           1
+doors$Order.browse@ordersDs                            182,0         182         182         0,0           1
+
+Performance Statistics   2016-12-22 15:06:00 - 2016-12-22 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

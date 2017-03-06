@@ -1,0 +1,87 @@
+Performance Statistics   2017-01-07 17:36:00 - 2017-01-07 17:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                1,0           1           1         0,0           1
+doors$Order.browse#load                                512,0         512         512         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   4,0           4           4         0,0           1
+doors$Order.browse@ordersDs                            401,0         401         401         0,0           1
+doors$Order.edit#init                                    4,0           4           4         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                  116,0         116         116         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 5,0           5           5         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     1,0           1           1         0,0           1
+doors$Order.edit.windowActions#load                      1,0           1           1         0,0           1
+doors$Order.edit@customersDs                           160,0         160         160         0,0           1
+doors$Order.edit@doorsDs                               221,0         221         221         0,0           1
+loginWindow#init                                       143,0         143         143         0,0           1
+loginWindow#inject                                       6,0           6           6         0,0           1
+loginWindow#load                                       192,0         192         192         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          8,0           8           8         0,0           1
+mainWindow#init                                         19,0          19          19         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                        184,0         184         184         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           1           1         0,0           1
+windowActions#xml                                        1,0           1           1         0,0           1
+
+Performance Statistics   2017-01-07 17:40:00 - 2017-01-07 17:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+doors$Order.browse#init                                  0,0           0           0         0,0           1
+doors$Order.browse#inject                                0,0           0           0         0,0           1
+doors$Order.browse#load                                397,0         397         397         0,0           1
+doors$Order.browse#ready                                 0,0           0           0         0,0           1
+doors$Order.browse#uiPermissions                         0,0           0           0         0,0           1
+doors$Order.browse#xml                                   3,0           3           3         0,0           1
+doors$Order.browse@ordersDs                            386,0         386         386         0,0           1
+doors$Order.edit#init                                    3,0           3           3         0,0           1
+doors$Order.edit#inject                                  0,0           0           0         0,0           2
+doors$Order.edit#load                                  100,0         100         100         0,0           1
+doors$Order.edit#ready                                   0,0           0           0         0,0           1
+doors$Order.edit#setItem                                 4,0           4           4         0,0           1
+doors$Order.edit#uiPermissions                           0,0           0           0         0,0           1
+doors$Order.edit#xml                                     2,0           2           2         0,0           1
+doors$Order.edit.windowActions#load                      1,0           1           1         0,0           1
+doors$Order.edit@customersDs                           138,0         138         138         0,0           1
+doors$Order.edit@doorsDs                               209,0         209         209         0,0           1
+loginWindow#init                                       129,0         129         129         0,0           1
+loginWindow#inject                                       7,0           7           7         0,0           1
+loginWindow#load                                       183,0         183         183         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                         10,0          10          10         0,0           1
+mainWindow#init                                         17,0          17          17         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                        175,0         175         175         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           2,0           2           2         0,0           1
+windowActions#xml                                        0,0           0           0         0,0           1
+
+Performance Statistics   2017-01-07 17:42:00 - 2017-01-07 17:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 17:44:00 - 2017-01-07 17:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 17:46:00 - 2017-01-07 17:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 17:58:00 - 2017-01-07 18:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 18:00:00 - 2017-01-07 18:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 18:02:00 - 2017-01-07 18:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-01-07 18:04:00 - 2017-01-07 18:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

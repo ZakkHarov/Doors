@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/ekom/doors/screens.xml"/>
+    <screen id="doors$Customer.edit"
+            template="com/ekom/doors/web/customer/customer-edit.xml"/>
+    <screen id="doors$Customer.browse"
+            template="com/ekom/doors/web/customer/customer-browse.xml"/>
+    <screen id="doors$Order.browse"
+            template="com/ekom/doors/web/order/order-browse.xml"/>
+    <screen id="doors$Order.edit"
+            template="com/ekom/doors/web/order/order-edit.xml"/>
+    <screen id="doors$Door.edit"
+            template="com/ekom/doors/web/door/door-edit.xml"/>
+    <screen id="doors$Door.browse"
+            template="com/ekom/doors/web/door/door-browse.xml"/>
+</screen-config>

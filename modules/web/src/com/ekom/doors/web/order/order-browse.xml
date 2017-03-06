@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.ekom.doors.web.order.OrderBrowse"
+        focusComponent="ordersTable"
+        lookupComponent="ordersTable"
+        messagesPack="com.ekom.doors.web.order">
+    <dsContext>
+        <collectionDatasource id="ordersDs"
+                              class="com.ekom.doors.entity.Order"
+                              view="orderWithCustomerAndDoor">
+            <query>
+                <![CDATA[select e from doors$Order e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="ordersTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="ordersTable"
+                datasource="ordersDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="ordersTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+                <action id="excel"/>
+            </actions>
+            <columns>
+                <column id="number"/>
+                <column id="date"/>
+                <column id="customer"/>
+                <column id="manufactureDate"/>
+                <column id="price"/>
+                <column id="door"/>
+                <column id="height"/>
+                <column id="width"/>
+                <column id="opening"/>
+                <column id="notes"/>
+                <column id="isolation"/>
+                <column id="peephole"/>
+                <column id="trim"/>
+                <column id="dismantling"/>
+                <column id="loopNumber"/>
+                <column id="topLock"/>
+                <column id="bottomLock"/>
+                <column id="topOnlay"/>
+                <column id="bottomOnlay"/>
+                <column id="handle"/>
+                <column id="cylinder"/>
+                <column id="internalDecoration"/>
+                <column id="externalDecoration"/>
+                <column id="status"/>
+                <column id="payed"/>
+                <column id="master"/>
+            </columns>
+            <rows datasource="ordersDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="ordersTable.create"/>
+                <button id="editBtn"
+                        action="ordersTable.edit"/>
+                <button id="removeBtn"
+                        action="ordersTable.remove"/>
+                <button id="excelBtn"
+                        action="ordersTable.excel"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

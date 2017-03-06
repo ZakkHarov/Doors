@@ -1,0 +1,1038 @@
+Performance Statistics   2016-12-26 10:50:00 - 2016-12-26 10:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             161,0         161         161         0,0           1
+LoadClass                                                0,3           0           1         0,4           4
+Messages.searchClasspath                                 0,1           0          11         0,7         629
+Messages.searchFiles                                     0,0           0          11         0,4         629
+Metadata.replaceExtendedMetaClasses                      1,5           1           2         0,5           2
+PersistenceSecurity.applyConstraints(..)                10,0          10          10         0,0           1
+QueryParser.getEntityAlias()                             2,0           2           2         0,0           1
+QueryParser.getEntityName()                             15,1           0         213        52,9          15
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          14
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          14
+QueryParser.getParamNames()                              0,2           0           3         0,7          15
+QueryParser.hasIsNullCondition(..)                       8,0           8           8         0,0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           4
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           4
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           4
+QueryTransformer.addWhereAsIs(..)                        0,3           0           1         0,4           4
+QueryTransformer.getResult()                             0,3           0           1         0,4           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,5           0           2         0,9           4
+SearchFolders                                          137,0         137         137         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0           3
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl            13,0          13          13         0,0           1
+
+Performance Statistics   2016-12-26 10:51:00 - 2016-12-26 10:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:52:00 - 2016-12-26 10:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           5
+MenuItem.doors$Order.browse                           1469,0        1469        1469         0,0           1
+Messages.searchClasspath                                 0,0           0           0         0,0         390
+Messages.searchFiles                                     0,0           0           0         0,0         390
+PersistenceSecurity.applyConstraints(..)                 0,8           0           2         0,7           5
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           5
+QueryParser.getEntityName()                              0,2           0           1         0,4          19
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          14
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          14
+QueryParser.getParamNames()                              0,1           0           1         0,2          19
+QueryParser.hasIsNullCondition(..)                       0,1           0           1         0,3           7
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           2
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           2
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           2
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           2
+QueryTransformer.getResult()                             0,0           0           0         0,0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         235
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           5
+ViewRepository.init.ViewRepositoryImpl                  11,0          11          11         0,0           1
+
+Performance Statistics   2016-12-26 10:53:00 - 2016-12-26 10:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:54:00 - 2016-12-26 10:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:55:00 - 2016-12-26 10:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:56:00 - 2016-12-26 10:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:57:00 - 2016-12-26 10:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:58:00 - 2016-12-26 10:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 10:59:00 - 2016-12-26 11:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:00:00 - 2016-12-26 11:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:01:00 - 2016-12-26 11:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:02:00 - 2016-12-26 11:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:03:00 - 2016-12-26 11:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:04:00 - 2016-12-26 11:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:05:00 - 2016-12-26 11:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:06:00 - 2016-12-26 11:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:07:00 - 2016-12-26 11:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:08:00 - 2016-12-26 11:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:09:00 - 2016-12-26 11:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:10:00 - 2016-12-26 11:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:11:00 - 2016-12-26 11:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:16:00 - 2016-12-26 11:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,5           0           1         0,5           2
+Messages.searchClasspath                                 0,1           0           9         0,6         417
+Messages.searchFiles                                     0,0           0           9         0,4         417
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           2
+QueryParser.getEntityName()                             70,7           2         205        95,0           3
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getParamNames()                              0,0           0           0         0,0           3
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           2
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           2
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           2
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           2
+QueryTransformer.getResult()                             0,5           0           1         0,5           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,5           0           1         0,5           2
+
+Performance Statistics   2016-12-26 11:17:00 - 2016-12-26 11:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:18:00 - 2016-12-26 11:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:19:00 - 2016-12-26 11:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             341,0         341         341         0,0           1
+LoadClass                                                1,0           0           7         2,4           7
+MenuItem.doors$Order.browse                           2418,0        2418        2418         0,0           1
+Messages.searchClasspath                                 0,0           0           7         0,3         617
+Messages.searchFiles                                     0,0           0           0         0,0         617
+PersistenceSecurity.applyConstraints(..)                 1,7           0           6         2,1           6
+QueryParser.getEntityAlias()                             0,2           0           1         0,4           6
+QueryParser.getEntityName()                              0,4           0           2         0,7          31
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          25
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          25
+QueryParser.getParamNames()                              0,1           0           3         0,5          31
+QueryParser.hasIsNullCondition(..)                       0,8           0           6         2,0           8
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           4
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           4
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           4
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           4
+QueryTransformer.getResult()                             0,0           0           0         0,0           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           4
+SearchFolders                                          497,0         497         497         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         242
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           6
+ViewRepository.init.ViewRepositoryClientImpl            15,0          15          15         0,0           1
+ViewRepository.init.ViewRepositoryImpl                  10,0          10          10         0,0           1
+
+Performance Statistics   2016-12-26 11:20:00 - 2016-12-26 11:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:21:00 - 2016-12-26 11:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:22:00 - 2016-12-26 11:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:23:00 - 2016-12-26 11:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:24:00 - 2016-12-26 11:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:25:00 - 2016-12-26 11:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:26:00 - 2016-12-26 11:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:27:00 - 2016-12-26 11:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:28:00 - 2016-12-26 11:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:29:00 - 2016-12-26 11:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:30:00 - 2016-12-26 11:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:31:00 - 2016-12-26 11:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:32:00 - 2016-12-26 11:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:33:00 - 2016-12-26 11:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:34:00 - 2016-12-26 11:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:35:00 - 2016-12-26 11:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:36:00 - 2016-12-26 11:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:37:00 - 2016-12-26 11:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:38:00 - 2016-12-26 11:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:39:00 - 2016-12-26 11:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:42:00 - 2016-12-26 11:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:43:00 - 2016-12-26 11:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+QueryParser.getEntityName()                              0,0           0           0         0,0           1
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getParamNames()                              0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 11:44:00 - 2016-12-26 11:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             120,0         120         120         0,0           1
+LoadClass                                                0,0           0           0         0,0           2
+PersistenceSecurity.applyConstraints(..)                 2,0           2           2         0,0           1
+QueryParser.getEntityAlias()                             1,0           1           1         0,0           1
+QueryParser.getEntityName()                              0,3           0           1         0,4           8
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           7
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           7
+QueryParser.getParamNames()                              0,1           0           1         0,3           8
+QueryParser.hasIsNullCondition(..)                       1,0           1           1         0,0           1
+SearchFolders                                          160,0         160         160         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0           3
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 11:44:00 - 2016-12-26 11:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             123,0         123         123         0,0           1
+LoadClass                                                0,2           0           1         0,4          11
+MenuItem.doors$Customer.browse                         662,5         194        1131       468,5           2
+Messages.searchClasspath                                 0,1           0           9         0,5         953
+Messages.searchFiles                                     0,0           0           8         0,3         953
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           2
+PersistenceSecurity.applyConstraints(..)                 1,8           0           7         2,3           6
+QueryParser.getEntityAlias()                             0,4           0           2         0,8           5
+QueryParser.getEntityName()                              5,9           0         188        31,2          35
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          29
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          29
+QueryParser.getParamNames()                              0,1           0           2         0,3          35
+QueryParser.hasIsNullCondition(..)                       1,6           0           8         3,2           5
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           6
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           6
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           6
+QueryTransformer.addWhereAsIs(..)                        0,2           0           1         0,4           6
+QueryTransformer.getResult()                             0,2           0           1         0,4           6
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,2           0           1         0,4           6
+SearchFolders                                          123,0         123         123         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         100
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           6
+ViewRepository.init.ViewRepositoryClientImpl            11,0          11          11         0,0           1
+ViewRepository.init.ViewRepositoryImpl                   9,0           9           9         0,0           1
+
+Performance Statistics   2016-12-26 11:45:00 - 2016-12-26 11:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0           1         0,2          15
+MenuItem.doors$Door.browse                             358,0         358         358         0,0           1
+MenuItem.doors$Order.browse                            412,0         412         412         0,0           1
+Messages.searchClasspath                                 0,0           0           0         0,0         163
+Messages.searchFiles                                     0,0           0           0         0,0         163
+PersistenceSecurity.applyConstraints(..)                 0,8           0           3         0,8          12
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           8
+QueryParser.getEntityName()                              0,0           0           0         0,0          31
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          19
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          19
+QueryParser.getParamNames()                              0,0           0           0         0,0          31
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0          13
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         448
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0          12
+
+Performance Statistics   2016-12-26 11:46:00 - 2016-12-26 11:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           2
+PersistenceSecurity.applyConstraints(..)                 0,5           0           1         0,5           2
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0           7
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           5
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           5
+QueryParser.getParamNames()                              0,0           0           0         0,0           7
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          23
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           2
+
+Performance Statistics   2016-12-26 11:47:00 - 2016-12-26 11:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:48:00 - 2016-12-26 11:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:49:00 - 2016-12-26 11:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:50:00 - 2016-12-26 11:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:51:00 - 2016-12-26 11:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:52:00 - 2016-12-26 11:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 11:53:00 - 2016-12-26 11:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:03:00 - 2016-12-26 13:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:04:00 - 2016-12-26 13:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             130,0         130         130         0,0           1
+LoadClass                                                0,4           0           2         0,6          16
+MenuItem.sec$Role.browse                               316,0         316         316         0,0           1
+MenuItem.sec$User.browse                               643,0         643         643         0,0           1
+Messages.searchClasspath                                 0,0           0           2         0,1        1211
+Messages.searchFiles                                     0,0           0           0         0,0        1211
+PersistenceSecurity.applyConstraints(..)                 0,7           0           1         0,5           6
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           4
+QueryParser.getEntityName()                              0,0           0           0         0,0          25
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          19
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          19
+QueryParser.getParamNames()                              0,0           0           0         0,0          25
+QueryParser.hasIsNullCondition(..)                       0,3           0           1         0,4           4
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           2
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           2
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           2
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           2
+QueryTransformer.getResult()                             0,0           0           0         0,0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           2
+SearchFolders                                          149,0         149         149         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         180
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           6
+
+Performance Statistics   2016-12-26 13:05:00 - 2016-12-26 13:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           7
+Messages.searchClasspath                                 0,0           0           0         0,0           9
+Messages.searchFiles                                     0,0           0           0         0,0           9
+PersistenceSecurity.applyConstraints(..)                 0,5           0           1         0,5           2
+QueryParser.getEntityName()                              0,0           0           0         0,0           5
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getParamNames()                              0,0           0           0         0,0           5
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          22
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          23
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           5
+
+Performance Statistics   2016-12-26 13:06:00 - 2016-12-26 13:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,3           0           2         0,6          16
+MenuItem.sec$Group.browse                              902,0         902         902         0,0           1
+Messages.searchClasspath                                 0,0           0           0         0,0         145
+Messages.searchFiles                                     0,0           0           0         0,0         145
+PersistenceSecurity.applyConstraints(..)                 0,4           0           1         0,5          10
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           2
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           4
+QueryParser.getEntityName()                              0,0           0           1         0,2          25
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          15
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          15
+QueryParser.getParamNames()                              0,0           0           0         0,0          25
+QueryParser.hasIsNullCondition(..)                       4,0           0          12         5,7           3
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         241
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          28
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0          14
+
+Performance Statistics   2016-12-26 13:07:00 - 2016-12-26 13:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0          12
+MenuItem.sec$User.browse                               584,0         584         584         0,0           1
+PersistenceSecurity.applyConstraints(..)                 0,6           0           1         0,5           7
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           4
+QueryParser.getEntityName()                              0,0           0           0         0,0          17
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          10
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          10
+QueryParser.getParamNames()                              0,0           0           0         0,0          17
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           3
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         219
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           7
+
+Performance Statistics   2016-12-26 13:08:00 - 2016-12-26 13:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           9
+Messages.searchClasspath                                 0,0           0           0         0,0           3
+Messages.searchFiles                                     0,0           0           0         0,0           3
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           3
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0          10
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           7
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           7
+QueryParser.getParamNames()                              0,0           0           0         0,0          10
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         154
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          30
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           7
+
+Performance Statistics   2016-12-26 13:09:00 - 2016-12-26 13:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           9
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           2
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0           6
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           4
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           4
+QueryParser.getParamNames()                              0,0           0           0         0,0           6
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         121
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           5
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           3
+
+Performance Statistics   2016-12-26 13:10:00 - 2016-12-26 13:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              96,0          84         108        12,0           2
+LoadClass                                                0,0           0           0         0,0          25
+MenuItem.doors$Order.browse                            391,0         391         391         0,0           1
+MenuItem.sec$User.browse                               399,0         399         399         0,0           1
+PersistenceSecurity.applyConstraints(..)                 0,5           0           1         0,5          11
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           8
+QueryParser.getEntityName()                              0,0           0           0         0,0          47
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          36
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          36
+QueryParser.getParamNames()                              0,0           0           0         0,0          47
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           9
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           4
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           4
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           4
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           4
+QueryTransformer.getResult()                             0,0           0           0         0,0           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           4
+SearchFolders                                           71,5          60          83        11,5           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0         482
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0          11
+
+Performance Statistics   2016-12-26 13:11:00 - 2016-12-26 13:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              84,0          84          84         0,0           1
+LoadClass                                                0,0           0           0         0,0           6
+PersistenceSecurity.applyConstraints(..)                 1,0           1           1         0,0           1
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           1
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0          11
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          10
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          10
+QueryParser.getParamNames()                              0,0           0           0         0,0          11
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           1
+SearchFolders                                           59,0          59          59         0,0           1
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          54
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          32
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           4
+
+Performance Statistics   2016-12-26 13:12:00 - 2016-12-26 13:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              81,5          80          83         1,5           2
+LoadClass                                                0,0           0           0         0,0           6
+MenuItem.doors$Customer.browse                         350,0         350         350         0,0           1
+PersistenceSecurity.applyConstraints(..)                 0,8           0           1         0,4           4
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           3
+QueryParser.getEntityName()                              0,1           0           1         0,3          26
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          22
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          22
+QueryParser.getParamNames()                              0,0           0           0         0,0          26
+QueryParser.hasIsNullCondition(..)                       0,0           0           0         0,0           3
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           2
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           2
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           2
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           2
+QueryTransformer.getResult()                             0,0           0           0         0,0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           2
+SearchFolders                                           69,5          65          74         4,5           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          37
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           4
+
+Performance Statistics   2016-12-26 13:13:00 - 2016-12-26 13:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:14:00 - 2016-12-26 13:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:15:00 - 2016-12-26 13:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:16:00 - 2016-12-26 13:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:17:00 - 2016-12-26 13:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:18:00 - 2016-12-26 13:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              82,5          81          85         1,7           4
+LoadClass                                                0,0           0           0         0,0          19
+MenuItem.doors$Door.browse                             348,0         348         348         0,0           1
+Messages.searchClasspath                                 0,0           0           0         0,0          12
+Messages.searchFiles                                     0,0           0           0         0,0          12
+PersistenceSecurity.applyConstraints(..)                 0,6           0           1         0,5           7
+QueryParser.getEntityAlias()                             0,0           0           0         0,0           5
+QueryParser.getEntityName()                              0,0           0           0         0,0          46
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          39
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0          39
+QueryParser.getParamNames()                              0,0           0           0         0,0          46
+QueryParser.hasIsNullCondition(..)                       0,2           0           1         0,4           5
+QueryParser.isCollectionSecondaryEntitySelect()          0,0           0           0         0,0           2
+QueryTransformer.addEntityInGroupBy(..)                  0,0           0           0         0,0           2
+QueryTransformer.addFirstSelectionSource(..)             0,0           0           0         0,0           2
+QueryTransformer.addWhereAsIs(..)                        0,0           0           0         0,0           2
+QueryTransformer.getResult()                             0,0           0           0         0,0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0,0           0           0         0,0           2
+SearchFolders                                           63,3          63          64         0,4           4
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          51
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           7
+
+Performance Statistics   2016-12-26 13:19:00 - 2016-12-26 13:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:20:00 - 2016-12-26 13:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:21:00 - 2016-12-26 13:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:22:00 - 2016-12-26 13:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:23:00 - 2016-12-26 13:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:24:00 - 2016-12-26 13:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+
+Performance Statistics   2016-12-26 13:25:00 - 2016-12-26 13:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:26:00 - 2016-12-26 13:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:27:00 - 2016-12-26 13:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           6
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:28:00 - 2016-12-26 13:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:29:00 - 2016-12-26 13:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:30:00 - 2016-12-26 13:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:31:00 - 2016-12-26 13:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:32:00 - 2016-12-26 13:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+PersistenceSecurity.applyConstraints(..)                 8,0           8           8         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0           2
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getParamNames()                              0,0           0           0         0,0           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          16
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:33:00 - 2016-12-26 13:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           9
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           3
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0           6
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           3
+QueryParser.getParamNames()                              0,0           0           0         0,0           6
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          56
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           8
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           4
+
+Performance Statistics   2016-12-26 13:34:00 - 2016-12-26 13:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           1
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           2
+QueryParser.getEntityName()                              0,0           0           0         0,0           2
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getParamNames()                              0,0           0           0         0,0           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          32
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          16
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           3
+
+Performance Statistics   2016-12-26 13:35:00 - 2016-12-26 13:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:36:00 - 2016-12-26 13:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0          12
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           4
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           3
+QueryParser.getEntityName()                              0,0           0           0         0,0           8
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           4
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           4
+QueryParser.getParamNames()                              0,0           0           0         0,0           8
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          88
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          24
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           7
+
+Performance Statistics   2016-12-26 13:37:00 - 2016-12-26 13:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           6
+PersistenceSecurity.applyConstraints(..)                 0,0           0           0         0,0           1
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           2
+QueryParser.getEntityName()                              0,0           0           0         0,0           2
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getParamNames()                              0,0           0           0         0,0           2
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          32
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          16
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           3
+
+Performance Statistics   2016-12-26 13:38:00 - 2016-12-26 13:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:39:00 - 2016-12-26 13:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           3
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0           4
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           1
+
+Performance Statistics   2016-12-26 13:40:00 - 2016-12-26 13:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           6
+PersistenceSecurity.applyConstraints(..)                 4,5           0           9         4,5           2
+PersistenceSecurity.restoreFilteredData(..)              0,0           0           0         0,0           1
+QueryParser.getEntityName()                              0,0           0           0         0,0           4
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           2
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           2
+QueryParser.getParamNames()                              0,0           0           0         0,0           4
+Security.isEntityAttrReadPermitted(..)                   0,0           0           0         0,0          40
+Security.isEntityAttrUpdatePermitted(..)                 0,0           0           0         0,0          12
+Security.isEntityOpPermitted(..)                         0,0           0           0         0,0           4
+
+Performance Statistics   2016-12-26 13:41:00 - 2016-12-26 13:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:42:00 - 2016-12-26 13:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:43:00 - 2016-12-26 13:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:44:00 - 2016-12-26 13:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:45:00 - 2016-12-26 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 13:46:00 - 2016-12-26 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:37:00 - 2016-12-26 14:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:38:00 - 2016-12-26 14:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:39:00 - 2016-12-26 14:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:40:00 - 2016-12-26 14:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:41:00 - 2016-12-26 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:52:00 - 2016-12-26 14:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:53:00 - 2016-12-26 14:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:54:00 - 2016-12-26 14:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:55:00 - 2016-12-26 14:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:56:00 - 2016-12-26 14:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:57:00 - 2016-12-26 14:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:58:00 - 2016-12-26 14:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 14:59:00 - 2016-12-26 15:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:00:00 - 2016-12-26 15:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:01:00 - 2016-12-26 15:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:02:00 - 2016-12-26 15:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:03:00 - 2016-12-26 15:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:04:00 - 2016-12-26 15:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:05:00 - 2016-12-26 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:06:00 - 2016-12-26 15:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:07:00 - 2016-12-26 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:08:00 - 2016-12-26 15:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:09:00 - 2016-12-26 15:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:10:00 - 2016-12-26 15:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:11:00 - 2016-12-26 15:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:12:00 - 2016-12-26 15:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:13:00 - 2016-12-26 15:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:14:00 - 2016-12-26 15:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:15:00 - 2016-12-26 15:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:16:00 - 2016-12-26 15:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:17:00 - 2016-12-26 15:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:18:00 - 2016-12-26 15:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:19:00 - 2016-12-26 15:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:20:00 - 2016-12-26 15:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:21:00 - 2016-12-26 15:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:22:00 - 2016-12-26 15:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:23:00 - 2016-12-26 15:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:24:00 - 2016-12-26 15:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:25:00 - 2016-12-26 15:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:26:00 - 2016-12-26 15:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:27:00 - 2016-12-26 15:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:28:00 - 2016-12-26 15:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:29:00 - 2016-12-26 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:30:00 - 2016-12-26 15:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:31:00 - 2016-12-26 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:32:00 - 2016-12-26 15:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:33:00 - 2016-12-26 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:34:00 - 2016-12-26 15:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:35:00 - 2016-12-26 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:44:00 - 2016-12-26 15:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:45:00 - 2016-12-26 15:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:46:00 - 2016-12-26 15:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:47:00 - 2016-12-26 15:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:48:00 - 2016-12-26 15:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:49:00 - 2016-12-26 15:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:50:00 - 2016-12-26 15:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:51:00 - 2016-12-26 15:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:52:00 - 2016-12-26 15:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:53:00 - 2016-12-26 15:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:54:00 - 2016-12-26 15:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:55:00 - 2016-12-26 15:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:56:00 - 2016-12-26 15:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:57:00 - 2016-12-26 15:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:58:00 - 2016-12-26 15:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 15:59:00 - 2016-12-26 16:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:00:00 - 2016-12-26 16:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:01:00 - 2016-12-26 16:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:02:00 - 2016-12-26 16:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:03:00 - 2016-12-26 16:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:04:00 - 2016-12-26 16:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:05:00 - 2016-12-26 16:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:06:00 - 2016-12-26 16:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:14:00 - 2016-12-26 16:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:15:00 - 2016-12-26 16:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:16:00 - 2016-12-26 16:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:17:00 - 2016-12-26 16:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:18:00 - 2016-12-26 16:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:19:00 - 2016-12-26 16:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:20:00 - 2016-12-26 16:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:21:00 - 2016-12-26 16:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:22:00 - 2016-12-26 16:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:40:00 - 2016-12-26 16:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:41:00 - 2016-12-26 16:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:42:00 - 2016-12-26 16:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:43:00 - 2016-12-26 16:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:44:00 - 2016-12-26 16:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:45:00 - 2016-12-26 16:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:46:00 - 2016-12-26 16:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:47:00 - 2016-12-26 16:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:48:00 - 2016-12-26 16:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:49:00 - 2016-12-26 16:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:50:00 - 2016-12-26 16:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:51:00 - 2016-12-26 16:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:52:00 - 2016-12-26 16:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:53:00 - 2016-12-26 16:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:54:00 - 2016-12-26 16:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 16:55:00 - 2016-12-26 16:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 18:06:00 - 2016-12-26 18:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:27:00 - 2016-12-26 22:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:28:00 - 2016-12-26 22:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:29:00 - 2016-12-26 22:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:30:00 - 2016-12-26 22:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:31:00 - 2016-12-26 22:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:32:00 - 2016-12-26 22:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:33:00 - 2016-12-26 22:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:34:00 - 2016-12-26 22:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:35:00 - 2016-12-26 22:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:36:00 - 2016-12-26 22:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:37:00 - 2016-12-26 22:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:38:00 - 2016-12-26 22:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:39:00 - 2016-12-26 22:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:40:00 - 2016-12-26 22:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:41:00 - 2016-12-26 22:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:42:00 - 2016-12-26 22:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:43:00 - 2016-12-26 22:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:44:00 - 2016-12-26 22:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:45:00 - 2016-12-26 22:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2016-12-26 22:46:00 - 2016-12-26 22:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

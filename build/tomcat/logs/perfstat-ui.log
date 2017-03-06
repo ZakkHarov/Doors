@@ -1,0 +1,15 @@
+Performance Statistics   2017-01-09 12:22:00 - 2017-01-09 12:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                       139,0         139         139         0,0           1
+loginWindow#inject                                      12,0          12          12         0,0           1
+loginWindow#load                                       227,0         227         227         0,0           1
+loginWindow#ready                                        0,0           0           0         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                         15,0          15          15         0,0           1
+mainWindow#init                                         20,0          20          20         0,0           1
+mainWindow#inject                                        1,0           1           1         0,0           1
+mainWindow#load                                        185,0         185         185         0,0           1
+mainWindow#ready                                         0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           2,0           2           2         0,0           1
+

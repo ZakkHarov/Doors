@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.ekom.doors.web.customer.CustomerEdit"
+        datasource="customerDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.ekom.doors.web.customer">
+    <dsContext>
+        <datasource id="customerDs"
+                    class="com.ekom.doors.entity.Customer"
+                    view="_local"/>
+        <collectionDatasource id="ordersDs"
+                              class="com.ekom.doors.entity.Order"
+                              view="orderWithCustomerAndDoor">
+            <query>
+                <![CDATA[select e from doors$Order e
+where e.customer.id = :ds$customerDs
+order by e.date]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout spacing="true">
+        <scrollBox height="100%"
+                   scrollBars="both">
+            <fieldGroup id="fieldGroup"
+                        datasource="customerDs">
+                <column width="250px">
+                    <field id="name"/>
+                    <field id="contactName"/>
+                    <field id="address"/>
+                    <field id="phone"/>
+                    <field id="mobile"/>
+                    <field id="fax"/>
+                    <field id="email"/>
+                    <field id="site"/>
+                </column>
+            </fieldGroup>
+            <label value="msg://Orders"/>
+            <table id="ordersTable"
+                   height="300px"
+                   width="800px">
+                <columns>
+                    <column id="number"/>
+                    <column id="date"/>
+                    <column id="manufactureDate"/>
+                    <column id="door"/>
+                    <column id="price"/>
+                    <column id="notes"/>
+                    <column id="status"/>
+                    <column id="payed"/>
+                </columns>
+                <rows datasource="ordersDs"/>
+            </table>
+            <frame id="windowActions"
+                   height="100%"
+                   screen="editWindowActions"/>
+        </scrollBox>
+    </layout>
+</window>

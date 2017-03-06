@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.ekom.doors.entity.Order"
+          extends="_local"
+          name="orderWithCustomerAndDoor"
+          systemProperties="true">
+        <property name="customer"
+                  view="_minimal"/>
+        <property name="door"
+                  view="_minimal"/>
+    </view>
+</views>

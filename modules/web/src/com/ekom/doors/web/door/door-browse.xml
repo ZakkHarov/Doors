@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.ekom.doors.web.door.DoorBrowse"
+        focusComponent="doorsTable"
+        lookupComponent="doorsTable"
+        messagesPack="com.ekom.doors.web.door">
+    <dsContext>
+        <collectionDatasource id="doorsDs"
+                              class="com.ekom.doors.entity.Door"
+                              view="_local">
+            <query>
+                <![CDATA[select e from doors$Door e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="doorsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="doorsTable"
+                datasource="doorsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="doorsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+                <action id="excel"/>
+            </actions>
+            <columns>
+                <column id="kind"/>
+                <column id="cd"/>
+                <column id="designation"/>
+                <column id="description"/>
+            </columns>
+            <rows datasource="doorsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="doorsTable.create"/>
+                <button id="editBtn"
+                        action="doorsTable.edit"/>
+                <button id="removeBtn"
+                        action="doorsTable.remove"/>
+                <button id="excelBtn"
+                        action="doorsTable.excel"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

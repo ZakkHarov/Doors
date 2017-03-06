@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/build/tomcat/conf/web.xml"/>
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/build/tomcat/conf" relative="/WEB-INF"/>
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/build/tomcat/webapps/doors-core/WEB-INF/web.xml"/>
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/build/tomcat/webapps/doors-core" relative="/"/>
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/build/tomcat/webapps/doors/WEB-INF/web.xml"/>
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/build/tomcat/webapps/doors" relative="/"/>
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true"/>
+        <setting name="provider-name" value=""/>
+        <datasource-mapping>
+          <factory-entry name="Doors"/>
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/build/tomcat/work/doors-core/persistence.xml"/>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/">
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+      <excludeFolder url="file://$MODULE_DIR$/deploy"/>
+      <excludeFolder url="file://$MODULE_DIR$/deploy"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+  </component>
+</module>
