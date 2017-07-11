@@ -426,6 +426,9 @@ create table SEC_ENTITY_LOG (
     CHANGE_TYPE char(1),
     ENTITY varchar(100),
     ENTITY_ID varchar(36),
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     CHANGES longvarchar,
     --
     primary key (ID),
@@ -654,6 +657,9 @@ create table SYS_ENTITY_SNAPSHOT (
     --
     ENTITY_META_CLASS varchar(50),
     ENTITY_ID varchar(36),
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     AUTHOR_ID varchar(36) not null,
     VIEW_XML longvarchar,
     SNAPSHOT_XML longvarchar,
@@ -709,6 +715,9 @@ create table SYS_CATEGORY_ATTR(
     DEFAULT_DATE_IS_CURRENT boolean,
     DEFAULT_BOOLEAN boolean,
     DEFAULT_ENTITY_VALUE varchar(36),
+    DEFAULT_STR_ENTITY_VALUE varchar(255),
+    DEFAULT_INT_ENTITY_VALUE integer,
+    DEFAULT_LONG_ENTITY_VALUE bigint,
     ENUMERATION varchar(500),
     ORDER_NO integer,
     SCREEN varchar(255),
@@ -741,12 +750,18 @@ create table SYS_ATTR_VALUE (
     --
     CATEGORY_ATTR_ID varchar(36) not null,
     ENTITY_ID varchar(36),
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     STRING_VALUE varchar(4000),
     INTEGER_VALUE integer,
     DOUBLE_VALUE numeric,
     DATE_VALUE date,
     BOOLEAN_VALUE boolean,
     ENTITY_VALUE varchar(36),
+    STRING_ENTITY_VALUE varchar(255),
+    INT_ENTITY_VALUE integer,
+    LONG_ENTITY_VALUE bigint,
     PARENT_ID varchar(36),
     CODE varchar(100),
     --
@@ -802,6 +817,22 @@ create table SEC_REMEMBER_ME (
     --
     primary key (ID),
     constraint FK_SEC_REMEMBER_ME_USER foreign key (USER_ID) references SEC_USER(ID)
+)^
+
+------------------------------------------------------------------------------------------------------------
+
+create table SYS_REST_API_TOKEN (
+    ID varchar(36) not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    --
+    ACCESS_TOKEN_VALUE varchar(255),
+    ACCESS_TOKEN_BYTES longvarbinary,
+    AUTHENTICATION_KEY varchar(255),
+    AUTHENTICATION_BYTES longvarbinary,
+    EXPIRY timestamp,
+    --
+    primary key (ID)
 )^
 
 ------------------------------------------------------------------------------------------------------------
