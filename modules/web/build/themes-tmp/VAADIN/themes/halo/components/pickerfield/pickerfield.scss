@@ -51,6 +51,7 @@
   }
 
   .#{$primary-stylename}-layout > .v-filterselect > input,
+  .#{$primary-stylename}-layout > .c-suggestionfield,
   .v-textfield.#{$primary-stylename}-text {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -60,6 +61,7 @@
     display: table-cell !important;
     text-align: center !important;
     vertical-align: middle;
+    overflow: hidden;
     padding: 0;
     width: $v-unit-size;
     min-width: $v-unit-size;
