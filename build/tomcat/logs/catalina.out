@@ -1,178 +1,189 @@
 Listening for transport dt_socket at address: 8787
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Server version:        Apache Tomcat/8.0.35
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Server built:          May 11 2016 21:57:08 UTC
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Server number:         8.0.35.0
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: OS Name:               Mac OS X
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: OS Version:            10.12.5
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Architecture:          x86_64
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: JVM Version:           1.8.0_112-b16
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: JVM Vendor:            Oracle Corporation
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: CATALINA_BASE:         /Users/home/studio-projects/Doors/build/tomcat
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: CATALINA_HOME:         /Users/home/studio-projects/Doors/build/tomcat
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Djava.util.logging.config.file=/Users/home/studio-projects/Doors/build/tomcat/conf/logging.properties
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Xmx512m
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Dfile.encoding=UTF-8
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Dlogback.configurationFile=../conf/logback.xml
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Dcom.sun.management.jmxremote
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Djava.endorsed.dirs=/Users/home/studio-projects/Doors/build/tomcat/endorsed
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Dcatalina.base=/Users/home/studio-projects/Doors/build/tomcat
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Dcatalina.home=/Users/home/studio-projects/Doors/build/tomcat
-июл 11, 2017 4:13:59 PM org.apache.catalina.startup.VersionLoggerListener log
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.VersionLoggerListener log
 INFO: Command line argument: -Djava.io.tmpdir=/Users/home/studio-projects/Doors/build/tomcat/temp
-июл 11, 2017 4:13:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+июл 19, 2017 10:11:48 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
 INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/home/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-июл 11, 2017 4:14:00 PM org.apache.coyote.AbstractProtocol init
+июл 19, 2017 10:11:48 AM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-8080"]
-июл 11, 2017 4:14:00 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+июл 19, 2017 10:11:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
 INFO: Using a shared selector for servlet write/read
-июл 11, 2017 4:14:00 PM org.apache.coyote.AbstractProtocol init
+июл 19, 2017 10:11:48 AM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
-июл 11, 2017 4:14:00 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+июл 19, 2017 10:11:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
 INFO: Using a shared selector for servlet write/read
-июл 11, 2017 4:14:00 PM org.apache.catalina.startup.Catalina load
-INFO: Initialization processed in 810 ms
-июл 11, 2017 4:14:00 PM org.apache.catalina.core.StandardService startInternal
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 671 ms
+июл 19, 2017 10:11:48 AM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service Catalina
-июл 11, 2017 4:14:00 PM org.apache.catalina.core.StandardEngine startInternal
+июл 19, 2017 10:11:48 AM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet Engine: Apache Tomcat/8.0.35
-июл 11, 2017 4:14:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+июл 19, 2017 10:11:48 AM org.apache.catalina.startup.HostConfig deployDirectory
 INFO: Deploying web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework addAtmosphereHandler
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework addAtmosphereHandler
 INFO: Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework addAtmosphereHandler
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework addAtmosphereHandler
 INFO: Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
-июл 11, 2017 4:14:01 PM org.atmosphere.util.IOUtils readServiceFile
+июл 19, 2017 10:11:49 AM org.atmosphere.util.IOUtils readServiceFile
 INFO: META-INF/services/org.atmosphere.cpr.AtmosphereFramework not found in class loader
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework autoConfigureService
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework autoConfigureService
 INFO: Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework initWebSocket
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework initWebSocket
 INFO: Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
-июл 11, 2017 4:14:01 PM org.atmosphere.container.JSR356AsyncSupport <init>
+июл 19, 2017 10:11:49 AM org.atmosphere.container.JSR356AsyncSupport <init>
 INFO: JSR 356 Mapping path /{path}
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
 INFO: Installing Default AtmosphereInterceptors
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
 INFO: Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework newAInterceptor
 INFO: 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework configureAtmosphereInterceptor
 INFO: Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Broadcaster Polling Wait Time 100
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Shared ExecutorService supported: true
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Messaging Thread Pool Size: Unlimited
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Async I/O Thread Pool Size: 200
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Invoke AtmosphereInterceptor on WebSocket message true
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: HttpSession supported: true
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/8.0.35 using javax.servlet/3.0 and jsr356/WebSocket API
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework info
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework info
 INFO: Atmosphere Framework 2.2.9.vaadin2.cuba0 started.
-июл 11, 2017 4:14:01 PM org.atmosphere.cpr.AtmosphereFramework interceptor
+июл 19, 2017 10:11:49 AM org.atmosphere.cpr.AtmosphereFramework interceptor
 INFO: Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
-16:14:01.648 INFO  c.h.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
-16:14:01.689 INFO  c.h.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
-16:14:01.690 INFO  c.h.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
-16:14:02.045 INFO  c.h.c.c.s.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@32e9fc5b: startup date [Tue Jul 11 16:14:02 MSK 2017]; root of context hierarchy
-16:14:04.866 INFO  c.h.c.c.s.r.d.StaticServerSelector - Server URL(s): http://localhost:8080/doors-core
-16:14:04.887 INFO  c.h.c.w.s.r.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
-16:14:05.680 INFO  c.h.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
-16:14:07.004 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
-16:14:07.618 INFO  c.h.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
-16:14:07.740 INFO  c.h.cuba.web.sys.WebAppContextLoader - AppContext initialized
-16:14:07.820 INFO  c.h.c.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
-16:14:07.830 INFO  c.h.c.c.s.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Jul 11 16:14:07 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@32e9fc5b
-16:14:10.400 INFO  c.h.c.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2579 ms
-16:14:10.403 INFO  c.h.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
-16:14:10.404 INFO  c.h.c.c.s.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Tue Jul 11 16:14:10 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@32e9fc5b
-16:14:13.170 INFO  c.h.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 2767 ms
-июл 11, 2017 4:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deployment of web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors has finished in 12,820 ms
-июл 11, 2017 4:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+10:11:49.567 INFO  c.h.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+10:11:49.604 INFO  c.h.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:cuba-web-app.properties
+10:11:49.605 INFO  c.h.cuba.web.sys.WebAppContextLoader - Loading app properties from classpath:com/ekom/doors/web-app.properties
+10:11:49.923 INFO  c.h.c.c.s.CubaClassPathXmlApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@46c9ff97: startup date [Wed Jul 19 10:11:49 MSK 2017]; root of context hierarchy
+10:11:51.764 INFO  c.h.c.c.s.r.d.StaticServerSelector - Server URL(s): http://localhost:8080/doors-core
+10:11:51.779 INFO  c.h.c.w.s.r.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_LoginService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_ObjectsCacheManagerService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ScreenProfilerService, cuba_ServerTokenStore, cuba_IdpService]
+10:11:52.284 INFO  c.h.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+10:11:53.366 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+10:11:53.825 INFO  c.h.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors.cuba:type=ConfigStorage, doors.cuba:type=CachingFacade, doors.cuba:type=FileUploading, doors.cuba:type=JmxNodeIdentifier, doors.cuba:type=JmxLogControl, doors.cuba:type=ClassLoaderManager, doors.cuba:type=StatisticsCounter]
+10:11:53.901 INFO  c.h.cuba.web.sys.WebAppContextLoader - AppContext initialized
+10:11:53.952 INFO  c.h.c.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization started
+10:11:53.959 INFO  c.h.c.c.s.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jul 19 10:11:53 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@46c9ff97
+10:11:55.388 INFO  c.h.c.web.sys.CubaDispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1436 ms
+10:11:55.389 INFO  c.h.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization started
+10:11:55.390 INFO  c.h.c.c.s.CubaXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest_api-servlet': startup date [Wed Jul 19 10:11:55 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@46c9ff97
+10:11:56.721 INFO  c.h.restapi.sys.CubaRestApiServlet - FrameworkServlet 'rest_api': initialization completed in 1332 ms
+июл 19, 2017 10:11:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors has finished in 8,359 ms
+июл 19, 2017 10:11:56 AM org.apache.catalina.startup.HostConfig deployDirectory
 INFO: Deploying web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors-core
-16:14:13.314 INFO  c.h.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
-16:14:13.327 INFO  c.h.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
-16:14:13.329 INFO  c.h.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
-16:14:13.340 INFO  c.h.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
-16:14:13.505 INFO  c.h.c.c.s.p.PersistenceConfigProcessor - Creating file /Users/home/studio-projects/Doors/build/tomcat/work/doors-core/persistence.xml
-16:14:13.530 INFO  c.h.c.c.s.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@acc3709: startup date [Tue Jul 11 16:14:13 MSK 2017]; root of context hierarchy
-16:14:20.367 INFO  c.h.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
-16:14:27.014 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
-16:14:28.081 INFO  c.h.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
-16:14:32.469 INFO  c.h.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
-16:14:32.645 INFO  c.h.cuba.core.sys.MetadataImpl - Initializing metadata
-16:14:32.827 INFO  c.h.cuba.core.sys.MetadataImpl - Metadata initialized in 182ms
-16:14:34.467 INFO  c.h.c.c.s.DefaultPermissionValuesConfig - Initializing default permission values
-16:14:35.998 INFO  c.h.c.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
-16:14:35.999 INFO  c.h.cuba.core.sys.AppContextLoader - AppContext initialized
-16:14:36.004 INFO  c.h.c.c.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
-16:14:36.006 INFO  c.h.c.c.s.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Tue Jul 11 16:14:36 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@acc3709
-16:14:36.028 INFO  c.h.c.c.s.r.RemoteServicesBeanCreator - Configuring remote services
-16:14:36.161 INFO  c.h.c.c.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 157 ms
-июл 11, 2017 4:14:36 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deployment of web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors-core has finished in 22,972 ms
-июл 11, 2017 4:14:36 PM org.apache.coyote.AbstractProtocol start
+10:11:56.806 INFO  c.h.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+10:11:56.815 INFO  c.h.cuba.core.sys.AppContextLoader - Loading app properties from classpath:cuba-app.properties
+10:11:56.816 INFO  c.h.cuba.core.sys.AppContextLoader - Loading app properties from classpath:com/ekom/doors/app.properties
+10:11:56.825 INFO  c.h.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mssql2012
+10:11:56.925 INFO  c.h.c.c.s.p.PersistenceConfigProcessor - Creating file /Users/home/studio-projects/Doors/build/tomcat/work/doors-core/persistence.xml
+10:11:56.941 INFO  c.h.c.c.s.CubaCoreApplicationContext - Refreshing com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6930749d: startup date [Wed Jul 19 10:11:56 MSK 2017]; root of context hierarchy
+10:12:00.220 INFO  c.h.chile.core.datatypes.Datatypes - Can't find /datatypes.xml, using default datatypes settings
+10:12:02.906 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+10:12:03.063 INFO  c.h.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [doors-core.cuba:type=PersistenceManager, doors-core.cuba:type=ConfigStorage, doors-core.cuba:type=UserSessions, doors-core.cuba:type=UniqueNumbers, doors-core.cuba:type=Emailer, doors-core.cuba:type=EntityLog, doors-core.cuba:type=FileStorage, doors-core.cuba:type=LockManager, doors-core.cuba:type=CachingFacade, doors-core.cuba:type=ClusterManager, doors-core.cuba:type=ScriptingManager, doors-core.cuba:type=ServerInfo, doors-core.cuba:type=Scheduling, doors-core.cuba:type=ObjectsCacheManager, doors-core.cuba:type=PasswordEncryptionSupport, doors-core.cuba:type=JmxNodeIdentifier, doors-core.cuba:type=JmxLogControl, doors-core.cuba:type=ClassLoaderManager, doors-core.cuba:type=StatisticsCounter, doors-core.cuba:type=BruteForceProtection, doors-core.cuba:type=QueryCacheSupport, doors-core.cuba:type=IdpSessions]
+10:12:04.299 INFO  c.h.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+10:12:04.443 INFO  c.h.cuba.core.sys.MetadataImpl - Initializing metadata
+10:12:04.642 INFO  c.h.cuba.core.sys.MetadataImpl - Metadata initialized in 199ms
+10:12:05.791 INFO  c.h.c.c.s.DefaultPermissionValuesConfig - Initializing default permission values
+10:12:06.322 INFO  c.h.c.security.app.LoginWorkerBean - Logged in: b40d7bf4-3464-c143-5cec-b443b2c1cc94 [anonymous]
+10:12:06.322 INFO  c.h.cuba.core.sys.AppContextLoader - AppContext initialized
+10:12:06.325 INFO  c.h.c.c.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization started
+10:12:06.326 INFO  c.h.c.c.s.CubaDefaultXmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Wed Jul 19 10:12:06 MSK 2017]; parent: com.haulmont.cuba.core.sys.CubaCoreApplicationContext@6930749d
+10:12:06.350 INFO  c.h.c.c.s.r.RemoteServicesBeanCreator - Configuring remote services
+10:12:06.501 INFO  c.h.c.c.sys.remoting.RemotingServlet - FrameworkServlet 'remoting': initialization completed in 176 ms
+июл 19, 2017 10:12:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/home/studio-projects/Doors/build/tomcat/webapps/doors-core has finished in 9,767 ms
+июл 19, 2017 10:12:06 AM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["http-nio-8080"]
-июл 11, 2017 4:14:36 PM org.apache.coyote.AbstractProtocol start
+июл 19, 2017 10:12:06 AM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-nio-8009"]
-июл 11, 2017 4:14:36 PM org.apache.catalina.startup.Catalina start
-INFO: Server startup in 35887 ms
+июл 19, 2017 10:12:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18184 ms
+июл 19, 2017 10:12:06 AM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10:12:07.469 INFO  c.h.cuba.core.sys.MetadataImpl - Initializing metadata
+10:12:07.855 INFO  c.h.cuba.core.sys.MetadataImpl - Metadata initialized in 386ms
+июл 19, 2017 10:12:09 AM com.vaadin.server.VaadinServlet serveStaticResourcesInVAADIN
+INFO: Requested resource [/VAADIN/themes/halo/branding/logo.png] not found from filesystem or through class loader. Add widgetset and/or theme JAR to your classpath or add files to WebContent/VAADIN folder.
