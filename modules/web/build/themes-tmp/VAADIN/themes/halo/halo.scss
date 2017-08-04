@@ -37,6 +37,7 @@
 @import "components/datagrid/datagrid";
 @import "components/groupbox/groupbox";
 @import "components/tabsheet/tabsheet";
+@import "components/managedtabsheet/managedtabsheet";
 @import "components/textfield/textfield";
 @import "components/textarea/textarea";
 @import "components/tokenlist/tokenlist";
@@ -73,6 +74,7 @@
 @import "components/draganddrop/draganddrop";
 @import "components/sidemenu/sidemenu";
 @import "components/fileuploadwrapper/fileuploadwrapper";
+@import "components/suggestionfield/suggestionfield";
 
 // Application specific
 @import "app/log-control";
@@ -111,6 +113,7 @@
   @include halo-checkbox;
   @include halo-datagrid;
   @include halo-tabsheet;
+  @include managed-tabsheet;
   @include halo-datefield;
   @include halo-datepicker;
   @include halo-splitpanel;
@@ -151,6 +154,7 @@
   @include halo-cuba-fieldgrouplayout;
   @include halo-cuba-resizabletextarea;
   @include halo-cuba-fileupload-wrapper;
+  @include halo-cuba-suggestionfield;
 
   @include cuba-log-control;
   @include cuba-login-window;

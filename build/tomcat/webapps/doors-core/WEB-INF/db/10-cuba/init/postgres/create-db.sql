@@ -419,6 +419,9 @@ create table SEC_ENTITY_LOG (
     CHANGE_TYPE char(1),
     ENTITY varchar(100),
     ENTITY_ID uuid,
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     CHANGES text,
     --
     primary key (ID),
@@ -426,6 +429,9 @@ create table SEC_ENTITY_LOG (
 )^
 
 create index IDX_SEC_ENTITY_LOG_ENTITY_ID on SEC_ENTITY_LOG (ENTITY_ID)^
+create index IDX_SEC_ENTITY_LOG_SENTITY_ID on SEC_ENTITY_LOG (STRING_ENTITY_ID)^
+create index IDX_SEC_ENTITY_LOG_IENTITY_ID on SEC_ENTITY_LOG (INT_ENTITY_ID)^
+create index IDX_SEC_ENTITY_LOG_LENTITY_ID on SEC_ENTITY_LOG (LONG_ENTITY_ID)^
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -661,7 +667,10 @@ create table SYS_ENTITY_SNAPSHOT (
     CREATED_BY varchar(50),
     --
     ENTITY_META_CLASS varchar(50) not null,
-    ENTITY_ID uuid not null,
+    ENTITY_ID uuid,
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     AUTHOR_ID uuid not null,
     VIEW_XML text not null,
     SNAPSHOT_XML text not null,
@@ -672,6 +681,9 @@ create table SYS_ENTITY_SNAPSHOT (
 )^
 
 create index IDX_SYS_ENTITY_SNAPSHOT_ENTITY_ID on SYS_ENTITY_SNAPSHOT (ENTITY_ID)^
+create index IDX_SYS_ENTITY_SNAPSHOT_SENTITY_ID on SYS_ENTITY_SNAPSHOT (STRING_ENTITY_ID)^
+create index IDX_SYS_ENTITY_SNAPSHOT_IENTITY_ID on SYS_ENTITY_SNAPSHOT (INT_ENTITY_ID)^
+create index IDX_SYS_ENTITY_SNAPSHOT_LENTITY_ID on SYS_ENTITY_SNAPSHOT (LONG_ENTITY_ID)^
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -721,6 +733,9 @@ create table SYS_CATEGORY_ATTR (
     DEFAULT_DATE_IS_CURRENT boolean,
     DEFAULT_BOOLEAN boolean,
     DEFAULT_ENTITY_VALUE uuid,
+    DEFAULT_STR_ENTITY_VALUE varchar(255),
+    DEFAULT_INT_ENTITY_VALUE integer,
+    DEFAULT_LONG_ENTITY_VALUE bigint,
     ENUMERATION varchar(500),
     ORDER_NO integer,
     SCREEN varchar(255),
@@ -755,12 +770,18 @@ create table SYS_ATTR_VALUE (
     CATEGORY_ATTR_ID uuid not null,
     CODE varchar(100),
     ENTITY_ID uuid,
+    STRING_ENTITY_ID varchar(255),
+    INT_ENTITY_ID integer,
+    LONG_ENTITY_ID bigint,
     STRING_VALUE varchar,
     INTEGER_VALUE integer,
     DOUBLE_VALUE numeric,
     DATE_VALUE timestamp,
     BOOLEAN_VALUE boolean,
     ENTITY_VALUE uuid,
+    STRING_ENTITY_VALUE varchar(255),
+    INT_ENTITY_VALUE integer,
+    LONG_ENTITY_VALUE bigint,
     PARENT_ID uuid,
     --
     primary key (ID),
@@ -769,6 +790,9 @@ create table SYS_ATTR_VALUE (
 )^
 
 create index IDX_SYS_ATTR_VALUE_ENTITY on SYS_ATTR_VALUE (ENTITY_ID)^
+create index IDX_SYS_ATTR_VALUE_SENTITY on SYS_ATTR_VALUE(STRING_ENTITY_ID)^
+create index IDX_SYS_ATTR_VALUE_IENTITY on SYS_ATTR_VALUE(INT_ENTITY_ID)^
+create index IDX_SYS_ATTR_VALUE_LENTITY on SYS_ATTR_VALUE(LONG_ENTITY_ID)^
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -829,6 +853,22 @@ create table SEC_REMEMBER_ME (
 )^
 create index IDX_SEC_REMEMBER_ME_USER on SEC_REMEMBER_ME(USER_ID)^
 create index IDX_SEC_REMEMBER_ME_TOKEN on SEC_REMEMBER_ME(TOKEN)^
+
+--------------------------------------------------------------------------------------------------------------
+
+create table SYS_REST_API_TOKEN (
+    ID uuid not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    --
+    ACCESS_TOKEN_VALUE varchar(255),
+    ACCESS_TOKEN_BYTES bytea,
+    AUTHENTICATION_KEY varchar(255),
+    AUTHENTICATION_BYTES bytea,
+    EXPIRY timestamp,
+    --
+    primary key (ID)
+)^
 
 --------------------------------------------------------------------------------------------------------------
 
