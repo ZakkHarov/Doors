@@ -15,6 +15,32 @@
  *
  */
 
+$cuba-default-menubar-background: #1c1e20 !default;
+
+@function get-menu-background-color($color) {
+    @if ($color == #fafafa) {
+      @return $cuba-default-menubar-background;
+    } @else {
+      @return scale-color($color, $lightness: if(color-luminance($color) < 10, 15%, -70%));
+    }
+}
+
+@function get-menu-border-color($color) {
+    @if ($color == #fafafa) {
+      @return $cuba-default-menubar-background;
+    } @else {
+      @return first-color(valo-border($color: $v-selection-color));
+    }
+}
+
+$cuba-menubar-background-color: get-menu-background-color($v-app-background-color) !default;
+$cuba-menubar-border-color: get-menu-border-color($v-app-background-color) !default;
+
+$cuba-menubar-submenu-padding: 0px !default;
+$cuba-menubar-menuitem-text-color: #adaeb0 !default;
+$cuba-menubar-text-color: #adaeb0 !default;
+$cuba-menubar-menuitem-text-selected-color: #e8e8e8 !default;
+
 @mixin cuba-menubar {
   .c-main-menu.v-menubar {
     border: 0;
@@ -54,6 +80,7 @@
     display: table;
     overflow: hidden;
     white-space: nowrap;
+    padding: $cuba-menubar-submenu-padding;
 
     .v-menubar-menuitem {
       display: table-row;
@@ -153,8 +180,8 @@
 
   @if ($v-support-inverse-menu) {
     .c-inverse-header.c-app-menubar {
-      background: #1c1e20;
-      border: 1px solid #1c1e20;
+      background: $cuba-menubar-background-color;
+      border: 1px solid $cuba-menubar-border-color;
 
       @include box-shadow(none);
 
@@ -162,7 +189,7 @@
         .v-menubar-menuitem-more-item,
         .v-menubar-menuitem-caption,
         .v-menubar-menuitem-shortcut {
-          color: #adaeb0;
+          color: $cuba-menubar-menuitem-text-color;
         }
 
         .v-menubar-menuitem:hover .v-menubar-menuitem-caption,
@@ -171,31 +198,45 @@
         .v-menubar-menuitem-selected .v-menubar-menuitem-caption,
         .v-menubar-menuitem-selected .v-menubar-menuitem-shortcut,
         .v-menubar-menuitem-selected.v-menubar-menuitem-more-item {
-          color: #e8e8e8;
+          color: $cuba-menubar-menuitem-text-selected-color;
         }
       }
 
       .c-user-select-label {
-        color: #adaeb0;
+        color: $cuba-menubar-text-color;
       }
 
       .c-user-timezone-label {
-        color: #adaeb0;
+        color: $cuba-menubar-text-color;
       }
 
-      .c-fts-button,
+      .c-ftsfield {
+        padding-right: $v-unit-size;
+        font-size: 0;
+        white-space: nowrap;
+
+        & > * {
+          font-size: $v-font-size;
+        }
+      }
+
+      .c-ftsfield-button {
+        margin-right: -$v-unit-size;
+      }
+
+      .c-ftsfield-button,
       .c-logout-button,
       .c-newwindow-button {
-        color: #adaeb0;
+        color: $cuba-menubar-text-color;
       }
 
-      .c-fts-button:hover,
-      .c-fts-button:focus,
+      .c-ftsfield-button:hover,
+      .c-ftsfield-button:focus,
       .c-logout-button:hover,
       .c-newwindow-button:hover,
       .c-logout-button:focus,
       .c-newwindow-button:focus {
-        color: #e8e8e8;
+        color: $cuba-menubar-menuitem-text-selected-color;
       }
     }
   }
